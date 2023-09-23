@@ -40,3 +40,96 @@
 .read-the-docs {
   color: #888;
 }
+
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.event-table td {
+  padding: 1rem;
+  text-align: center;
+  vertical-align: top;
+  width: 25%; /* Divide the screen into 4 columns */
+}
+/*
+.event-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  height: 450px; 
+  box-sizing: border-box; 
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+*/
+.card-image {
+  max-width: 100%;
+  height: auto;
+}
+/*
+.event-card img {
+  max-width: 100%; 
+  max-height: 100%;
+  height: auto;
+}
+*/
+.button {
+  background-color: transparent; /* Transparent background */
+  color: black; /* Text color in black */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: 2px solid black; /* Border with black color */
+  border-radius: 20px; /* Curved border radius */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.button:hover {
+  background-color: blue; /* Background color on hover */
+  color: black; /* Text color on hover */
+}
+
+.event-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  height: 450px; /* Set a fixed height for the cards */
+  box-sizing: border-box; /* Include padding in the height calculation */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack image and text vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+}
+
+
+
+.event-card img {
+  max-width: 100%;
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: cover;
+  flex: 0 0 auto; /* Ensure images don't grow beyond their specified height */
+}
+
+.event-card .event-details {
+  flex: 1; /* Let the text details occupy remaining space */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.event-card-bottom {
+  border: 1px solid #ddd;
+  border-top: none; /* Remove the top border */
+  border-bottom-left-radius: 10px; /* Adjust the curve radius as needed */
+  border-bottom-right-radius: 10px; /* Adjust the curve radius as needed */
+}
+
