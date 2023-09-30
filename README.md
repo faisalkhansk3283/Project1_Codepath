@@ -1,4 +1,4 @@
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - *Food Truck*
 
 Submitted by: **Faisal Rasheed Khan**
 
@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/a/vR75iX9' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/vR75iX9.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
